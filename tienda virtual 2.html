@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tienda Virtual</title>
+    <link rel="stylesheet" href="csstienda.css">
+</head>
+<body>
+    <!-- Menú de la Tienda -->
+    <header class="menu">
+        <div class="logo">
+            <img src="Imagenes/flowerknowslogo.png" alt="Logo Tienda">
+            <h1>Flower Knows</h1>
+        </div>
+        <div class="carrito">
+            <img src="Imagenes/carrito.png" alt="Carrito de Compras">
+            <span class="contador">0</span>
+        </div>
+    </header>
+
+    <!-- Encabezado con Imágenes que Cambian Automáticamente -->
+    <section class="encabezado">
+        <div class="slider">
+            <img src="Imagenes/l.png" alt="Imagen 1">
+            <img src="Imagenes/knjn (1).png" alt="Imagen 2">
+            <img src="Imagenes/hydt.png" alt="Imagen 3">
+        </div>
+    </section>
+
+    <!-- Productos de la Tienda -->
+    <section class="productos">
+        <!-- Primer Fila de Productos -->
+        <div class="fila">
+            <div class="producto">
+                <img src="Imagenes/♡︎.png" alt="Producto 1">
+                <div class="info-producto">
+                    <h3>Labial Liquido</h3>
+                    <p class="precio">$19.99</p>
+                    <button class="comprar-btn">Comprar</button>
+                    <img src="Imagenes/brillitos.gif" class="gif-producto" alt="Brillitos">
+                </div>
+            </div>
+            <div class="producto">
+                <img src="Imagenes/gf.png" alt="Producto 2">
+                <div class="info-producto">
+                    <h3>Rubor</h3>
+                    <p class="precio">$24.99</p>
+                    <button class="comprar-btn">Comprar</button>
+                    <img src="Imagenes/brillitos.gif" class="gif-producto" alt="Brillitos">
+                </div>
+            </div>
+            <div class="producto">
+                <img src="Imagenes/jh.png" alt="Producto 3">
+                <div class="info-producto">
+                    <h3>Paleta de Sombras</h3>
+                    <p class="precio">$14.99</p>
+                    <button class="comprar-btn">Comprar</button>
+                    <img src="Imagenes/brillitos.gif" class="gif-producto" alt="Brillitos">
+                </div>
+            </div>
+        </div>
+
+        <!-- Segunda Fila de Productos -->
+        <div class="fila">
+            <div class="producto">
+                <img src="Imagenes/k.png" alt="Producto 4">
+                <div class="info-producto">
+                    <h3>Labial en barra Rosa</h3>
+                    <p class="precio">$29.99</p>
+                    <button class="comprar-btn">Comprar</button>
+                    <img src="Imagenes/brillitos.gif" class="gif-producto" alt="Brillitos">
+                </div>
+            </div>
+            <div class="producto">
+                <img src="Imagenes/jj.png" alt="Producto 5">
+                <div class="info-producto">
+                    <h3>Labial Liquido Rojo</h3>
+                    <p class="precio">$39.99</p>
+                    <button class="comprar-btn">Comprar</button>
+                    <img src="Imagenes/brillitos.gif" class="gif-producto" alt="Brillitos">
+                </div>
+            </div>
+            <div class="producto">
+                <img src="Imagenes/perfume.png" alt="Producto 6">
+                <div class="info-producto">
+                    <h3>Perfume</h3>
+                    <p class="precio">$49.99</p>
+                    <button class="comprar-btn">Comprar</button>
+                    <img src="Imagenes/brillitos.gif" class="gif-producto" alt="Brillitos">
+                </div>
+            </div>
+        </div>
+
+        <!-- Tercer Fila de Productos -->
+        <div class="fila">
+            <div class="producto">
+                <img src="Imagenes/2.png" alt="Producto 7">
+                <div class="info-producto">
+                    <h3>Cepillo para Cabello</h3>
+                    <p class="precio">$59.99</p>
+                    <button class="comprar-btn">Comprar</button>
+                    <img src="Imagenes/brillitos.gif" class="gif-producto" alt="Brillitos">
+                </div>
+            </div>
+            <div class="producto">
+                <img src="Imagenes/Swan Ballet.png" alt="Producto 8">
+                <div class="info-producto">
+                    <h3>Brochas de Maquillaje</h3>
+                    <p class="precio">$69.99</p>
+                    <button class="comprar-btn">Comprar</button>
+                    <img src="Imagenes/brillitos.gif" class="gif-producto" alt="Brillitos">
+                </div>
+            </div>
+            <div class="producto">
+                <img src="Imagenes/labial en barra.png" alt="Producto 9">
+                <div class="info-producto">
+                    <h3>Labial Rojo en barra</h3>
+                    <p class="precio">$79.99</p>
+                    <button class="comprar-btn">Comprar</button>
+                    <img src="Imagenes/brillitos.gif" class="gif-producto" alt="Brillitos">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Carrito Sidebar -->
+    <aside class="carrito-sidebar">
+        <h2>Carrito de Compras</h2>
+        <ul class="lista-carrito"></ul>
+        <div class="total-carrito">Total: $0.00</div>
+        <button class="vaciar-carrito-btn">Vaciar Carrito</button>
+    </aside>
+
+    <script src="javatienda.js"></script>
+</body>
+</html>
